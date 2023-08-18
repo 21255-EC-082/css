@@ -1,0 +1,11 @@
+...margin is used to create space outside of the element.
+               if we mention margin top -40px then it moves inside 40px from the top
+              same as if we mention bottom-40px then it moves inside 40px from the bottom
+++++short hand property will applied  to all sides in an element.
+       example for short hand element is margin and padding. and border also.
+----------- padding is used to create space inside the element.
+           if we mention padding top- 30px then it moves outside 30px from the top.
+          same as if we mention padding down-30px then it moves outside 30 px from the bottom.
+ ...to avoid the space for block level elements like div we use box-sizing.
+...box-sizing will remove the unwanted spaces outside and inside of the element.
+ if we use this box sizing then we know that for every block line element  there will be particular border so by using this box sizing upto that block line element border only padding and margn will be applied and after that it doesnot apply.

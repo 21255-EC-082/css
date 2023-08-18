@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="external styling.css">
+	<title>attribute selectorin css</title>
+</head>
+<body>
+<h1>attributeselector</h1>
+<input type="text" >
+<input type="number" >
+<input type="password" >
+<input type="checkbox" >
+<br/>
+<br/>
+<br/>
+<a href="#">click here</a>
+<a href="#">click here</a>
+<a href="#">click here</a>
+<a href="#">click here</a>
+
+
+
+</body>
+</html>
+------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>here i used attribute selector and in this attribute selector i used an anchor tag and i used the inputs like text,number,password and i assigned different colours to it and after that i executed and when i executed the color i gave to the text is came when i type the text in the specefic box and same as for the other two. 

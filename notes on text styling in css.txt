@@ -1,0 +1,40 @@
+in the css there are different types of text writing properties.
+they are
+           text align
+            text transform
+           text shadow: to create some shadow for the content we use text shadow
+                  this text shadow is a short hand property it means there is no need to mention text shadow -horizontal and text shadow vertical we can mention text shadow
+        text -shadow : 2px 2px 3px   here 3px or the third value represents the blur value and it makes the text shadow blurr. and if we doesnot mention any third value then the shadow won't be blur.
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> text properties in css</title>
+	<style type="text/css">
+		.a{
+			text-align:center;-------------------------------here we use text align property and  in this there will be right ,left ,center and when we give left then it starts from left and if we give  right then it starts from right.
+			color:red;
+			text-shadow:2px 2px 3px green;
+		}
+		.b{
+			text-transform:uppercase;------------------------------here text transform is a property and in this it is sub divided to 4 types they are uppercase ----it means all letters will be in capital
+     lowercse----it makes all letters small
+     capitalise-----make every word first letter capital.
+			color:green;
+			text-align:justify;
+		}
+	</style>
+</head>
+<body>
+     <p class="a"><b>Susmitha Munukutla</b></p> 
+     <p class="b">Founded back on the 3rd of February 2016, our journey has been quite an adventurously successful one. Over time our team has taken up commercial and social projects and developed apps, games, softwares, websites and a whole lot more. Our experienced developers are certified in an array of languages and can handle anything that comes their way.</p>
+</body>
+</html>

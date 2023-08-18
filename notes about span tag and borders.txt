@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>span tag and borders in css</title>
+	<style type="text/css">
+	h4{---------------------------------------------------->>> here i used an internal styling in css.
+		......border-style:solid;--------------------------->>> here before the text i used the dots and it mean those are the border properties and here border style indicate the line of the border.
+		......border-width:6px;----------> here border width indicate the width size of the border
+		.....border-color:red green blue yellow;-------> here border colour is chosen in clock wise.first it prefers top then it prefers right then it prefers bottom and last it prefers left.
+		.....border-top-style: ridge;       -            ----------these four are the different types of styles and we will get dotted line and bold line etc.
+		.....border-right-style: groove;    -
+		.....border-bottom-style:dotted;   -
+		......border-left-style:solid;        -
+	}
+</style>
+</head>
+<body>
+<h4><i> this  is susmitha munukutla</i></h4>
+</body>
+</html>

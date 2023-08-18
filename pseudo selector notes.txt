@@ -1,0 +1,16 @@
+a:link{---------------------------------->>>here  i used the psuedo selectors and pseudo selector link is used when i  click the link the color of the link will be changed and when i didnot click the link then we wont get that color.
+	color:rosybrown;
+}
+a:visited{--------------------------------->>>>here i used the visited  and the link when i already visited the link and after that the link is visible in the color i gave .
+	color:seagreen;
+}
+a:hover{---------------------------------->>>>>here i used the hover and when i keep the mouse then the color will be changed and when i remove the mouse near to that link then the color will be same as before.
+	color:burlywood;
+	font-size: 70px;
+}
+a:active{
+	color:mediumpurple;
+}
+div:hover{------------------------->here we used div in html and when we move the mouse cursor then the particular area height width and background color gets changed and when we remove the cursor then it will as the before.
+	background-color: purple;
+}

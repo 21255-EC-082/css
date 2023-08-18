@@ -1,0 +1,16 @@
+there are 4 types of positions in css
+     ............ static position 
+-------------------- this  position  is default  position in css.
+when we apply static position as it is default position then there is no change in it.
+    ................ relative position
+-------------------this position is used to move the box in left and right.
+             in this relative position after giving some values defaulty without leaving its starting position from that position it moves left  as if we giv eleft and it moves right as if we give left.
+            ------for  example  let us assume that i have given an internal styling for this relativ eposition and in that i mentioned top:20px; left:30px;
+           so the particular block without leaving its starting position it starts moving as we give the commands.
+         relative position doesnot depends on the parent division.
+  ..........................absolute position
+ ----------------- this position is moved by based on parent division.
+whenever we apply absolute position then from that position it leaves it  starting position and  occupy the parent  position and when we give the dimensions for it then it moves to the particular position from the parent position.
+                  it totally depends on parent  box.
+...............................fixed position 
+----------------------- this position will be fixed when we apply position fixed to it and  and no paragraph or no matter is not allowed on it.

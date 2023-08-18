@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		internal styling using css
+	</title>
+	<style type="text/css">
+		.susmii{-------> here this is the css styling code and in this we can directly give the type of font and the border colorand the background color for it.
+			font-size: 142px;
+			font-family: monospace;
+			color: darkcyan;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="external styling.css"> ----> this link tab is used to link the css file with the html file and we can style the html file by using css.
+	<link rel="stylesheet" type="text/css" href="id styling.css">
+</head>
+<body>
+	<h3> internal styling</h3>---> this is known as internal styling and in this internal styling we give inside the html file and at the body we acess the points or the commands we gave it to the html file.it is having the first highest priority.
+	<p class="susmii">SUSMITHA</p>
+	
+<h2>external styling</h2>--------> this is known as external styling and in this external styling we give the commands in the outside css file and this file and the outside css file should be saved in the same folder.then we can access both the files. as we gave the css commands outside the program we takethe commands by using thelink attribute and we execute in the html. it is having the third highest priority in accessing the commands on styling the data
+<p class="external"> external class</p>
+
+<h2>id selector</h2>
+<p id="susmitha">susmii</p>----> it is the sub type in external styling in css. and before the css file name we use hash(#) symbol for the id  selector and aas the above styling we can give font name,font color,back ground color,border for the font. id selector having highest priority than universal and pseudo selector
+
+</body>
+</html>
+______>>>>> first priority in styling is having for the inline styling and we style this inside the paragraph.

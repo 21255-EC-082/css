@@ -1,0 +1,63 @@
+block level element occupies the entire width of the browser
+       for h1 tag we are having default display tag as block level
+              by changing the default properties using display in line property the occupied width get changes accordingly.
+
+
+
+Display none:
+display none property makes the entire area or the particular area to be removed.
+here it is used  to display some secret matter at first we display none and after by clicking some button then that matter get opened.
+    
+
+visibilty hidden:
+visibilty hidden property makes the content hidden but the area occupied by it remains same.
+      
+
+
+
+
+
+program on display and visibility
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>display andd visual properties in css</title>
+	<style type="text/css">
+		.a{
+			height:200px;
+			width:400px;
+			border: 10px solid red;
+			float:left;
+			/*display:none;*/
+
+		}
+		.h1{
+			display:inline;
+		}
+		.b{
+			height:200px;
+			width:400px;
+			border: 10px solid darkgreen;
+			float:left;
+			visibility:hidden;
+		}
+		.c{
+			height:200px;
+			width:400px;
+			border: 10px  solid yellow;
+			float:left;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="a"><h1> susmitha</h1></div>
+<div class="b"></div>
+<div class="c"></div>
+
+</body>
+</html>

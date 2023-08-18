@@ -1,0 +1,10 @@
+box-shadow  is same as text shadow.
+............ her we apply shadow to the box
+same as text shadow we apply 3 values to the box-shadow.
+             box-shadow: 2px 2px 3px                here first two values indicate  vertical and horizontal values of shadow and third value indicate bur value of  shadow
+
+
+
+                                                box-model
+      box model is used to know the perfect measurments of the box.
+     <div style= "height=200px;width=100px;background image=black;"></div>

@@ -1,0 +1,28 @@
+ .external{
+	border: 3px solid blue;
+	background-color: darkmagenta;
+	font-family: fantasy;
+	color:floralwhite;
+}
+p{
+	color:darkkhaki;
+	font-size: 50px;
+}
+*{
+	color:darkseagreen;
+	font-size: 100px;
+	font-family: fantasy;
+	background-color: skyblue;
+}
+
+	input[type="text"]{
+		color:red;
+	}
+	input[type="number"]{
+		color:palevioletred;
+	}
+	input[type="password"]{
+		color:hotpink;
+	}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>position by using css in html</title>
+	<style type="text/css">
+		.a{
+			height: 400px;
+			width: 300px;
+			background-color: palevioletred;
+			float: left;
+			position: static;
+		}
+		.b{
+			height: 400px;
+			width: 300px;
+			background-color: deeppink;
+			float: left;
+			position: relative;
+			top:200px;
+			right:50px;
+		}
+		.c{
+			height: 400px;
+			width: 300px;
+			background-color: rebeccapurple;
+			float: left;
+			position: absolute;
+			top: 30px;
+			right: 20px;
+		}
+		.d{
+			height: 400px;
+			width: 300px;
+			background-color: royalblue;
+			float: left;
+			position: fixed;
+			top:100px;
+			right:60px;
+		}
+	</style>
+</head>
+<body>
+<div class="a"><h1 style="text-align: center;">static</h1></div>
+<div class="b"><h1 style="text-align: center;">relative</h1></div>
+<div class="c"><h1 style="text-align: center;">absolute</h1></div>
+<div class="d"><h1 style="text-align: center;">fixed</h1></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>styling with css</title>---->as for the human skeleton and muscles are the main parts which give shape for the body. and in the coding html acts as as skeleton whreras the muscle acts as css . html gives the finite it means the perfect showing of the code where as the css is used for styling the font and making the font to look nice.
+</head>
+<body>
+	<h2>inline styling</h2>____> this is the inline styling and it is having the highest priority in the stylings.
+	<p style="color: darkred; background-color: yellow;">myself susmitha </p>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+a:link{
+	color:rosybrown;
+}
+a:visited{
+	color:seagreen;
+}
+a:hover{
+	color:burlywood;
+	font-size: 70px;
+}
+a:active{
+	color:mediumpurple;
+}
+div:hover{   
+	background-color: purple;
+	height:300px;
+	width:500px
+}
